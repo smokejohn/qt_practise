@@ -24,3 +24,21 @@ target_link_libraries(substrings PUBLIC Qt5::Core Qt5::Widgets)
 
 add_executable(looping looping.cpp)
 target_link_libraries(looping PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(comparing comparing.cpp)
+target_link_libraries(comparing PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(output output.cpp)
+target_link_libraries(output PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(letters letters.cpp)
+target_link_libraries(letters PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(modify modify.cpp)
+target_link_libraries(modify PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(right_align right_align.cpp)
+target_link_libraries(right_align PUBLIC Qt5::Core Qt5::Widgets)
+
+add_executable(html_escape html_escape.cpp)
+target_link_libraries(html_escape PUBLIC Qt5::Core Qt5::Widgets)
