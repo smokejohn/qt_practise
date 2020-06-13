@@ -9,21 +9,21 @@ find_package(Qt5 COMPONENTS REQUIRED Core Gui Widgets)
 # set(project_ui
 #     mainwindow.ui)
 
-set(project_headers
-    window.h)
+# set(project_headers
+#     window.h)
 
 set(project_sources
-    window.cpp
+    # window.cpp
     main.cpp
     )
 
 # qt5_wrap_ui(ui_wrap ${project_ui})
-qt5_wrap_cpp(moc_sources ${project_headers})
+# qt5_wrap_cpp(moc_sources ${project_headers})
 
 add_executable(${PROJECT_NAME}
-    ${project_headers}
+    # ${project_headers}
     ${project_sources}
-    ${moc_sources}
+    # ${moc_sources}
     # ${ui_wrap}
     )
 
