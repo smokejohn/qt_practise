@@ -7,7 +7,9 @@ create or edit the `qtlogging.ini` file at `~/.config/QtProject/qtlogging.ini` a
 ```
 [Rules]
 *.debug=true
-qt.qpa.input*.debug=false
+qt.qpa.*=false
+qt.accessibility.cache=false
+qt.text.*=false
 ```
 [>> Stackoverflow thread discussing this issue <<](https://stackoverflow.com/questions/30583577/qt-qdebug-not-working-with-qconsoleapplication-or-qapplication)
 
