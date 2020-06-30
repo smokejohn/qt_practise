@@ -6,6 +6,7 @@ Currently this repository contains:
 
 * [Qtwiki](https://wiki.qt.io/Qt_for_Beginners) Qt Beginner exercises (not organized at all | don't look at this :))
 * [zetcode.com](http://zetcode.com/gui/qt5/) Qt5 Tutorial exercises (zet_# folders)
+* [bogotobogo.com](https://www.bogotobogo.com/Qt/Qt5_Creating_QtQuick2_QML_Application_Animation_A.php) Qt5 Tutorials (bogo)
 
 ## Building with CMake
 
